@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:overcooked/app/list/list_view.dart';
 
 class App extends StatelessWidget {
   @override
@@ -12,7 +13,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: Text('Overcooked'),
         ),
-        body: Text("Overcooked content"),
+        body: List(),
       ),
     );
   }
